@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('E:/profile-card-component-main/images/bg-pattern-top.svg'), url('E:/profile-card-component-main/images/bg-pattern-bottom.svg');
+    font-family: 'Kumbh Sans', sans-serif;
+    background-repeat: repeat no-repeat;
+    background-position: right bottom, left top;
+    
+    
+
+}
+
+/* .top-bg {
+    background-image: url('E:/profile-card-component-main/images/bg-pattern-top.svg');
+} */
+
+.container {
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 350px;
+    height: 365px;
+    border: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+
+.image
+{
+    height: 90px;
+}
+ 
+.hero-img img
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+}
+.main-content {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-name
+{
+    color:  hsl(229, 23%, 23%);
+    font-weight: 700;
+    padding: 14px;
+
+}
+
+.para
+{
+    color:  hsl(0, 0%, 59%);
+    margin-top: -10px;
+    margin-bottom: 12px;
+
+}
+
+span{
+    color:  hsl(0, 0%, 59%);
+    font-weight: 200;
+}
+.number {
+    color:  hsl(229, 23%, 23%);
+    font-weight: 400;
+    display: flex;
+    padding: 10px;
+
+}
+.num1
+{
+    margin: 25px;
+    font-size: 700;
+    color: hsl(229, 23%, 23%);
+    
+    text-transform: uppercase;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.title
+{
+    text-transform: uppercase;
+    color:  hsl(0, 0%, 59%);
+    font-weight: 200;
+    font-size: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
